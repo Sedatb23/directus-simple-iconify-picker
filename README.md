@@ -18,10 +18,10 @@ A custom interface extension for Directus that provides an intuitive icon picker
 - Node.js 16.x or higher
 
 ## Screenshots
-![](/screenshots/field-creation.jpg?raw=true)
-![](/screenshots/icon-collection.jpg?raw=true)
-![](/screenshots/icon-filtering.jpg?raw=true)
-![](/screenshots/icon-selected.jpg?raw=true)
+![](/screenshots/field-creation.JPG?raw=true)
+![](/screenshots/icon-collection.JPG?raw=true)
+![](/screenshots/icon-filtering.JPG?raw=true)
+![](/screenshots/icon-selected.JPG?raw=true)
 
 ## 🚀 Installation
 Option 1: NPM Package (Recommended)
