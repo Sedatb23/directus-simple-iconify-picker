@@ -1,0 +1,46 @@
+{
+  "name": "simple-iconify-picker",
+  "description": "Simple iconify picker interface for Directus",
+  "icon": "extension",
+  "version": "1.0.0",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-extension-interface"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "directus:extension": {
+    "type": "bundle",
+    "path": {
+      "app": "dist/app.js",
+      "api": "dist/api.js"
+    },
+    "entries": [
+      {
+        "type": "interface",
+        "name": "iconify-picker",
+        "source": "src/interface/index.ts"
+      },
+      {
+        "type": "endpoint",
+        "name": "iconify-proxy",
+        "source": "src/endpoint/api.ts"
+      }
+    ],
+    "host": "^10.10.0"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build -w --no-minify",
+    "link": "directus-extension link",
+    "validate": "directus-extension validate"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "17.0.4",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.26"
+  }
+}
