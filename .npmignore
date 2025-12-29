@@ -1,0 +1,24 @@
+# Source files (users don't need these)
+src/
+tsconfig.json
+
+# Development files
+node_modules/
+.git/
+.gitignore
+.github/
+
+# Documentation (optional - you might want to include README)
+*.md
+!README.md
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

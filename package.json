@@ -1,12 +1,23 @@
 {
   "name": "simple-iconify-picker",
   "description": "Simple iconify picker interface for Directus",
+  "author": "Sedatb23",
+  "license": "MIT",
   "icon": "extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sedatb23/directus-simple-iconify-picker.git"
+  },
   "keywords": [
     "directus",
     "directus-extension",
-    "directus-extension-interface"
+    "directus-custom-bundle",
+    "directus-extension-bundle",
+    "directus-interface",
+    "iconify",
+    "icon-picker",
+    "icons"
   ],
   "type": "module",
   "files": [
@@ -36,7 +47,8 @@
     "build": "directus-extension build",
     "dev": "directus-extension build -w --no-minify",
     "link": "directus-extension link",
-    "validate": "directus-extension validate"
+    "validate": "directus-extension validate",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@directus/extensions-sdk": "17.0.4",
